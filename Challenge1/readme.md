@@ -24,7 +24,7 @@ The following diagram shows the high level deployment architecture:
 
 ![Azure 3 tier architecture solution](otherfiles/Architecture.png)
 
- ### Archictrue Components and layers.
+### Archictrue Components and layers.
  Following are main architecture components
 
    **1) Database Layer** `Azure PASS database with elastic pool`. Elastic pools are a simple, cost-effective solution for managing and scaling multiple databases that have              varying usage demands. So to avoid under utilization of database during non peak hours elastic pool solution can be very effective to minimize cost and provide                  autoscaling during heavy workload. This soultion is very flexible as it is  very easy to upgrade /downgrade elstic pool configuration and db can be moved out of elastic          pool if usage pattern changes. With usage 
@@ -39,7 +39,7 @@ The following diagram shows the high level deployment architecture:
   
    
  
-  ## Development of Architecture:-
+ ## Development of Architecture:-
   Terraform open source is used to develop provisioning of infrastrcutre and modules are created for provisioning of resoruces in each layer. Module structure of code is           explained as below
   
           
@@ -83,7 +83,25 @@ The following diagram shows the high level deployment architecture:
            
 
       
-      
+ ## Development of Architecture:-
+   
+   ### Steps
+
+   **Step 0** `terraform init`
+
+   used to initialize a working directory containing Terraform configuration files
+
+   **Step 1** `terraform plan`
+
+   used to create an execution plan
+
+   **Step 2** `terraform validate`
+
+   validates the configuration files in a directory, referring only to the configuration and not accessing any remote services such as remote state, provider APIs, etc
+
+   **Step 3** `terraform apply`
+
+   used to apply the changes required to reach the desired state of the configuration
      
    
 
