@@ -17,11 +17,9 @@ def get_key_value(dataset, keys):
     except (KeyError, IndexError):
         return None
 
-#dataset_input1 = input("Enter Dataset in json format:-")
 dataset_input1 = {"a":{"b":{"c":"d"}}}
 dataset_input2 = {"x":{"y":{"z":"a"}}}
 
-#key_input1 = input("Enter key value of dataset:-")
 key_input1 = "a/b/c"
 key_input2 = "x/y/z"
 
