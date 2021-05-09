@@ -43,7 +43,7 @@ The following diagram shows the high level deployment architecture:
   Terraform open source is used to develop provisioning of infrastrcutre and modules are created for provisioning of resoruces in each layer. Module structure of code is           explained as below
   
           
-```       
+```      
 ├── main.tf                   // The root module which calls sub modules sequentially for terraform resources provisoning.
 ├── vars.tf                   // It contain the declarations for variables.
 ├── output.tf                 // It contain the declarations for outputs.
@@ -79,10 +79,8 @@ The following diagram shows the high level deployment architecture:
         ├──keyvault           // Module to store database password, virtual machine login password and key securly in azure key vault secrete 
            ├── main.tf        // main set of  configuration to create secrete for stroring password in key vault.
            ├── variable.tf    // Declaration variables reuqired to secrete in key vault.
-     ```
+  ```
            
-
-
 
 
       
