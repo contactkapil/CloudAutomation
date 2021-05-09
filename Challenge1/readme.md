@@ -57,7 +57,7 @@ The following diagram shows the high level deployment architecture:
            ├── main.tf        // main set of  configuration to provision networking resources.
            ├── variable.tf    // Declaration variables reuqired to create network resources.
            ├── output.tf      // Declaration of output variables(subnet id's) to after provisioning network resources.
-        ├──database           // Module to create databse with elastic pool to form data layer of architecture
+        ├──database           // Module to create database with elastic pool to form data layer of architecture
            ├── main.tf        // main set of  configuration to provision database resources(db server, elastic pool, database ).
            ├── variable.tf    // Declaration variables reuqired to create database resources.
         ├──compute            // Module to create business(compute) layer of 3 tier architecture
@@ -69,7 +69,7 @@ The following diagram shows the high level deployment architecture:
            ├── variable.tf    // Declaration variables reuqired to create network resources.
            ├── output.tf      // Declaration of output variables(NIC IP address of web server) to after provisioning network resources.
            ├── security.tf    // Creation and rule setup for network security group (NSG) for web server
-        ├──bastion            // Module to create azure to prepare bastion host to seucrely connect web and compute resources
+        ├──bastion            // Module to create azure  bastion host to seucrely connect web and compute resources
            ├── main.tf        // main set of  configuration to provision bastion VM
            ├── variable.tf    // Declaration variables reuqired to create bastion resources.
            ├── security.tf    // Creation and rule setup for network security group (NSG) for bastion.
