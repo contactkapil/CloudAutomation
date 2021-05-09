@@ -27,7 +27,7 @@ The following diagram shows the high level deployment architecture:
 ### Archictrue Components and layers.
  Following are main architecture components
 
-   **1) Database Layer** `Azure PASS database with elastic pool`. Elastic pools are a simple, cost-effective solution for managing and scaling multiple databases that have              varying usage demands. So to avoid under utilization of database during non peak hours elastic pool solution can be very effective to minimize cost and provide                  autoscaling during heavy workload. This soultion is very flexible as it is  very easy to upgrade /downgrade elstic pool configuration and db can be moved out of elastic          pool if usage pattern changes. With usage 
+   **1) Database Layer** `Azure PASS database with elastic pool`. Elastic pools are a simple, cost-effective solution for managing and scaling multiple databases that have              varying usage demands. So to avoid under utilization of database during non peak hours elastic pool solution can be very effective to minimize cost and provide                  autoscaling during heavy workload. This soultion is very flexible as it is  very easy to upgrade /downgrade elstic pool configuration and db can be moved out of elastic          pool if usage pattern changes. 
  
    **2) Compute Layer** `Azure linux Virtual Machines (with availability set) with internal load balancer `
  
