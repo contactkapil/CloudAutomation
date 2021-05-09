@@ -22,7 +22,7 @@ Terraform is an open-source infrastructure as code software tool created by Hash
 
 The following diagram shows the high level deployment architecture:
 
-![Azure 3 tier architecture solution](otherfiles/Architecture diagram.png)
+![Azure 3 tier architecture solution](otherfiles/Architecture.png)
 
 
 
