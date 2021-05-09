@@ -34,6 +34,6 @@ key_inp_mod2 = (list(key_input2.split("/")))
 
 
 
-print("Value for dataset_input1' and key1 - :",get_key_value(dataset=dataset_input1, keys=key_inp_mod1))
+print("Value for dataset1 and key1 - :",get_key_value(dataset=dataset_input1, keys=key_inp_mod1))
 
 print("Value for dataset2 and key2 - :",get_key_value(dataset=dataset_input2, keys=key_inp_mod2))
