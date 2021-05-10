@@ -35,7 +35,7 @@ The following diagram shows the high level deployment architecture:
  
    **4) Application Gateway** `Application Gateway is web traffic load balancer`. Application gatway offers SSL termination, URL-based routing, multi-site routing, Cookie-based         session affinity and Web Application Firewall (WAF) features hence offers additional security when web servers are accessed via public url through application gateway.
   
-  **5 Azure Bastion** `Azure bastion`. It is PAAS service which offers more secure , seamless RDP/SSH connectivity to your VMs directly in the Azure portal over SSL. Virtual            machine which manages software can be only private IP and can only be physically accessible via Azure Bastion.
+  **5) Azure Bastion** `Azure bastion`. It is PAAS service which offers more secure , seamless RDP/SSH connectivity to your VMs directly in the Azure portal over SSL. Virtual            machine which manages software can be only private IP and can only be physically accessible via Azure Bastion.
   
    
  
